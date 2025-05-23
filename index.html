@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xuan Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Xuan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Xuan">洪珮瑄</h1>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:y67989@gmail.com" class="contact-link">y67989@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:0987805657" class="contact-link">0987805657</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Born</p>
+
+              <time datetime="1998">1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>台灣, 桃園</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Laonahayz" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>關於我</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>簡歷</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>作品集</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="關於我">
+
+        <header>
+            <h2 class="h2 article-title">關於我</h2>
+        </header>
+
+        <section class="about-text">
+            <p>嗨，我是洪珮瑄，一位熱愛互動科技與創作的 AR / 遊戲開發者。</p>
+            <p>我專攻使用 Unity 開發互動應用與跨平台遊戲，擅長結合設計與程式打造有趣、有溫度的數位體驗。</p>
+            <p>具備 C#、C++ 與 HTML/CSS 基礎，能靈活應用於多種開發情境，也熟悉使用 Maya 製作 3D 模型與角色動畫，並整合至 Unity 中進行互動設計。<br /><br /></p> 
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">擅長領域</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AR.png" alt="AR Dev icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                 <h4 class="h4 service-item-title">AR 應用開發</h4>
+
+                 <p class="service-item-text">
+                     使用 Unity 開發教育、遊戲與行動平台上的互動式 AR 系統。
+                 </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/GameDesign.png" alt="Game Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                 <h4 class="h4 service-item-title">遊戲設計</h4>
+
+                 <p class="service-item-text">
+                     為 2D 與 3D 專案設計並實作遊戲系統、UI 與互動邏輯。
+                 </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Multi_platform.png" alt="Multi platform icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                 <h4 class="h4 service-item-title">跨平台應用</h4>
+
+                 <p class="service-item-text">
+                     具備多平台開發經驗，曾於 HoloLens、Android、iOS 與 PC 等裝置上進行專案實作與測試。
+                 </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Modeling.png" alt="Modeling icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">模型與動畫設計</h4>
+                <p class="service-item-text">
+                    獨立開發時使用 Maya 製作模型與動畫，並整合至 Unity 中，作為完整互動體驗的一部分。
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="簡歷">
+
+        <header>
+            <h2 class="h2 article-title">簡歷</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">學歷</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">元智大學 資訊傳播學系研究所</h4>
+
+                  <span>2021 — 2025</span>
+
+                  <p class="timeline-text">
+                      於論文階段獨立開發 Unity Vuforia AR 教學系統，作為「AR 化學教育系統設計」主題之研究實作，系統具備自適應提示反饋、答題回饋與行為紀錄功能。
+                  </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">元智大學 資訊傳播學系 科技組</h4>
+
+                  <span>2017 — 2021</span>
+
+                  <p class="timeline-text">
+                      修習科技應用組課程，學習程式設計、互動設計與數位內容製作，並完成多項 Unity 遊戲開發與 C++/C# 系統專案，奠定 AR / 遊戲製作與多媒體整合之實作基礎。
+                  </p>
+
+              </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">專案經驗</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">Cubezzle（Hololens MR 拼圖遊戲）</h4>
+
+                  <span>2023 — 2024</span>
+
+                  <p class="timeline-text">
+                      獨立開發於 HoloLens 平台的 MR 拼圖應用，包含 3D 模型、動畫、互動邏輯與 UI 設計，並獲得校內「VR/AR 教育應用創作競賽」第一名。
+                  </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">AR 化學實驗室（iOS 平台 碩論專案）</h4>
+
+                  <span>2025</span>
+
+                  <p class="timeline-text">
+                      使用 Unity 與 Vuforia 製作 iOS 平台互動式 AR 教學應用，模擬皂化反應流程，結合題目測驗、操作紀錄與提示機制，用於研究實作。
+                  </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">RoomMATO（PC 平台解謎遊戲）</h4>
+
+                  <span>2022</span>
+
+                  <p class="timeline-text">
+                      負責場景建置、角色動畫、介面互動、流程引導與提示系統整合，遊戲具備多段情境切換與互動邏輯，為完整的 Unity 遊戲作品。
+                  </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                  <h4 class="h4 timeline-item-title">艾勒門（Android 連線射擊遊戲）</h4>
+
+                  <span>2022</span>
+
+                  <p class="timeline-text">
+                      負責多人連線架構（Photon）、角色控制、技能系統、UI 流程與地圖設計，遊戲支援 Android 平台，最多可 4 人合作對戰，具備技能施放、BOSS 模式與結算機制。
+                  </p>
+
+              </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">技能</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unity</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C#</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+                <div class="title-wrapper">
+                    <h5 class="h5">HTML / CSS</h5>
+                    <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AR/MR</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+                <div class="title-wrapper">
+                    <h5 class="h5">Maya</h5>
+                    <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+            </li>
+
+            <li class="skills-item">
+
+                <div class="title-wrapper">
+                    <h5 class="h5">Photoshop</h5>
+                    <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="作品集">
+
+        <header>
+            <h2 class="h2 article-title">作品集</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn data-category="all">全部作品</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="armr">AR/MR</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="game">遊戲</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="csharp">C# 視窗程式練習</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn data-category="cpp">C++ 程式練習</button>
+            </li>
+
+            <li class="filter-item">
+                <button data-filter-btn data-category="3d">3D 動畫</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item data-category="all">全部作品</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="armr">AR/MR</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="game">遊戲</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="csharp">C# 視窗程式練習</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item data-category="cpp">C++ 程式練習</button>
+              </li>
+
+              <li class="select-item">
+                  <button data-select-item data-category="3d">3D 動畫</button>
+              </li>
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="armr">
+              <a href="https://github.com/Laonahayz/Cubzzle">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Cubezzle.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cubezzle</h3>
+
+                <p class="project-category">AR/MR</p>
+                <p class="project-category">開發工具：Unity</p>
+                <p class="project-category">平台：HoloLens</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="armr">
+                <a href="https://github.com/Laonahayz/ScienceAR">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/ARLab.png" alt="dsm." loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">AR皂化實驗室</h3>
+
+                    <p class="project-category">AR/MR</p>
+                    <p class="project-category">開發工具：Unity</p>
+                    <p class="project-category">平台：iOS</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="armr">
+                <a href="https://youtu.be/DZEgfYGrbWw">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/furniture.jpg" alt="dsm." loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">家具召喚</h3>
+
+                    <p class="project-category">AR/MR</p>
+                    <p class="project-category">開發工具：Unity</p>
+                    <p class="project-category">平台：HoloLens</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="3d">
+                <a href="https://youtu.be/WdhK8HBBtrQ">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/Clock.jpg" alt="dsm." loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">小鬧鐘</h3>
+
+                    <p class="project-category">3D 建模+動畫</p>
+                    <p class="project-category">工具：Maya</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game">
+                <a href="https://github.com/Laonahayz/Element">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/Element.png" alt="brawlhalla" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">艾勒門</h3>
+
+                    <p class="project-category">遊戲</p>
+                    <p class="project-category">開發工具：Unity</p>
+                    <p class="project-category">平台：Android</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game">
+                <a href="https://github.com/Laonahayz/roomMATO">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/roomMATO.png" alt="task manager" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">roomMATO</h3>
+
+                    <p class="project-category">遊戲</p>
+                    <p class="project-category">開發工具：Unity</p>
+                    <p class="project-category">平台：PC</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="csharp">
+              <a href="https://github.com/Laonahayz/Galaxian">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Galaxian.PNG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">小蜜蜂遊戲</h3>
+
+                <p class="project-category">C# 視窗程式練習</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="csharp">
+              <a href="https://github.com/Laonahayz/Simple_Palette">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Simple_Palette.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">簡易調色盤</h3>
+
+                <p class="project-category">C# 視窗程式練習</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="csharp">
+              <a href="https://github.com/Laonahayz/Ordering-Interface">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Ordering_Interface.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">訂貨介面</h3>
+
+                <p class="project-category">C# 視窗程式練習</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cpp">
+              <a href="https://github.com/Laonahayz/SimpleDiary">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Diary.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">簡易日記</h3>
+
+                <p class="project-category">C++ 程式練習</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cpp">
+                <a href="https://github.com/Laonahayz/Factorial-Calculator">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/FactorialSum.jpg" alt="arrival" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">階層計算</h3>
+
+                    <p class="project-category">C++ 程式練習</p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cpp">
+                <a href="https://github.com/Laonahayz/ID-Validator">
+
+                    <figure class="project-img">
+                        <div class="project-item-icon-box">
+                            <ion-icon name="eye-outline"></ion-icon>
+                        </div>
+
+                        <img src="./assets/images/ID_Verify.jpg" alt="arrival" loading="lazy">
+                    </figure>
+
+                    <h3 class="project-title">簡易身份證字號驗證</h3>
+
+                    <p class="project-category">C++ 程式練習</p>
+
+                </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
